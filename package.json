@@ -1,0 +1,28 @@
+{
+  "name": "vagas",
+  "version": "1.0.0",
+  "description": "Api para vagas de emprego",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wesleysaraujo/vagas.git"
+  },
+  "author": "Wesley S. Araújo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleysaraujo/vagas/issues"
+  },
+  "homepage": "https://github.com/wesleysaraujo/vagas#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
